@@ -11,4 +11,6 @@ RUN pacman -Syu --noconfirm \
 RUN mkluatexfontdb -vvv
 RUN mkdir /work
 
+ENV PATH /usr/bin/vendor_perl:$PATH
+
 WORKDIR /work
