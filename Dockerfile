@@ -6,6 +6,9 @@ RUN pacman -Syu --noconfirm \
 			texlive-langjapanese \
 			texlive-bibtexextra \
 			texlive-latexextra \
+			texlive-humanities \
+			texlive-pictures \
+			texlive-science \
 			biber
 
 RUN mkluatexfontdb -vvv
